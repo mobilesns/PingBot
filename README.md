@@ -14,10 +14,10 @@ Commands:
 - /stop : Stop sending messages to a a room.
 
 Please execute the /msg command before the /test command.
-After stopping the message sending by the /stop command the /msg and /test can be exectued again.
+After stopping the message sending by the /stop command the /msg and /testcommands can be exectued again.
 
 In the top directory:
 Clean and build PingBot - $mvn clean install dependency:copy-dependencies
 Run PingBot - $java  -classpath target/dependency/*:target/classes PingBot
 
-Add PingBot to any room then execute the command /msg and /test to start sending messages to the room.
+Add PingBot to any room then execute the  /msg and /test commands to start sending messages to the room.
