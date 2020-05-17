@@ -15,7 +15,7 @@ Commands:
 
 Please execute the /msg command before the /test command.
 
-After stopping the message sending by the /stop command the /msg and /testcommands can be exectued again.
+After stopping the message sending by the /stop command the /msg and /test commands can be exectued again.
 
 In the top directory:
 - Clean and build PingBot - $mvn clean install dependency:copy-dependencies
