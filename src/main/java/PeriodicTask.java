@@ -66,7 +66,7 @@ public class PeriodicTask {
             sequence++;
         };
 
-        futureSendMsg = scheduler.scheduleAtFixedRate(sendMsg, 0, 10, SECONDS);
+        futureSendMsg = scheduler.scheduleAtFixedRate(sendMsg, 0, 300, SECONDS);
         futurePingUsers = scheduler.scheduleAtFixedRate(pingUsers, getDelayUntilNextDay(), DAYS.toSeconds(1), SECONDS);
         // just for debug or test
         // futurePingUsers = scheduler.scheduleAtFixedRate(pingUsers, 60, 60, SECONDS);
