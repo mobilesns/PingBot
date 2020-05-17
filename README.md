@@ -4,7 +4,7 @@ A bot sending messages to a room running on Symphony Platform
 Features:
 - PingBot sends a message to a room every 5 minutes.
 - Pingbot sends a message to a room at the start of everyday and @mention a list of users.
-- There is an additional payload containing random alphabetland numbers placed in card of Symphony messageML.
+- There is an additional payload containing random alphabet and numbers placed in card of Symphony messageML.
 - The size of the additional payload changes at the start of everyday with the order 1000 -> 5000 -> 10000 -> 20000 -> 40000 -> 1000 ...... and on and on.
 - The size of the message and payload are shown in a message.
 
